@@ -1,0 +1,9 @@
+{
+  "appId": "com.swaplab.template",
+  "appName": "SwapLabApp",
+  "webDir": "www",
+  "server": {
+    "url": "https://public.swaplab.net",
+    "cleartext": true
+  }
+}

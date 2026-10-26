@@ -1,0 +1,9 @@
+{
+  "name": "swaplab-web-to-apk-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Capacitor template for Web-to-APK generation",
+  "scripts": {
+    "build": "echo 'No local build required for Web-to-APK'"
+  }
+}
