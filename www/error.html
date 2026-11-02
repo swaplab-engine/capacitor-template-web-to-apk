@@ -113,8 +113,8 @@
             e.preventDefault();
             // Brief visual feedback delay before reload
             setTimeout(() => {
-                // In Capacitor, '/' routes back to the configured server.url
-                window.location.href = '/';
+                // use a custom scheme that will be intercepted by MainActivity.java in the native layer to reload the WebView
+                window.location.href = 'swaplab://retry';
             }, 150);
         }
     </script>
